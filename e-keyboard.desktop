@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.1
+Name=Eta-Keyboard
+Name[tr]=E-Klavye
+Type=Application
+Comment=Screen virtual keyboard
+Comment[tr]=Ekran sanal klavyesi
+Terminal=false
+Exec=sh -c "pkill e-keyboard;/usr/bin/e-keyboard show;"
+Icon=/usr/share/e-keyboard/keyboard.svg
+Categories=Qt;Utility;
+GenericName=Virtual Keyboard
+GenericName[tr]=Sanal Klavye
