@@ -45,7 +45,7 @@ ApplicationWindow {
     property string activeTextColor3: "white"
     property string textPressedColor: "#5e5a5a"
     property int keyHeight
-    property int keyWidth: keyHeight
+    property int keyWidth: keyHeight*1.1
     property int spacing: keyHeight / 12
     property int dockSize
     property double scale: 1 // 0.2 ... 1.8
@@ -392,10 +392,10 @@ ApplicationWindow {
 
 
 
-        main.keyHeight =  main.screenHeight * scaleVariable / 23
+        main.keyHeight =  main.screenHeight * scaleVariable / 17
         main.dockSize = main.screenHeight * scaleVariable / 35
         if (main.layout == "Full"){
-            main.width = main.keyHeight * 15 + main.spacing * 16
+            main.width = main.keyHeight * 15*1.1 + main.spacing * 16
             main.height = main.keyHeight * 11 / 2 + main.dockSize +
                     main.spacing * 8
         }
